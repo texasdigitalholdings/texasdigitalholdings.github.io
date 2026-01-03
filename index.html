@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Texas Digital Holdings LLC</title>
+
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #161a22;
+      --text-primary: #ffffff;
+      --text-secondary: #a1a7b3;
+      --accent: #4da3ff;
+      --border: #242938;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(1200px 600px at 20% -10%, #1b2030, transparent),
+                  var(--bg);
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 720px;
+      width: 100%;
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), transparent),
+                  var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      margin: 0 0 12px 0;
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--text-secondary);
+      margin-bottom: 28px;
+    }
+
+    .section {
+      margin-top: 24px;
+    }
+
+    .section h2 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+    }
+
+    .section p {
+      margin: 0;
+      line-height: 1.6;
+      color: var(--text-primary);
+    }
+
+    .footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 28px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Texas Digital Holdings LLC</h1>
+      <div class="subtitle">
+        Independent software development
+      </div>
+
+      <div class="section">
+        <h2>Focus</h2>
+        <p>
+          Building thoughtfully designed, native applications with an initial
+          emphasis on Apple ecosystem platforms using Swift and SwiftUI.
+        </p>
+      </div>
+
+  <div class="section">
+    <h2>Currently Developing</h2>
+  
+    <p style="margin-bottom: 16px;">
+      <strong>(Beta – 1.0) CashSight</strong><br />
+      A complex yet approachable financial application focused on assisting users
+      without harvesting or monetizing their personal data.
+    </p>
+  
+    <p style="margin-bottom: 24px; color: var(--text-secondary);">
+      Status: Undergoing internal testing, addressing defects, and preparing for
+      an initial public release.
+    </p>
+  
+    <p style="margin-bottom: 16px;">
+      <strong>(Alpha – 0.5) Moments</strong><br />
+      A lightweight note-taking application designed for rapid thought capture,
+      built for the realities of modern attention and cognitive load.
+    </p>
+  
+    <p style="color: var(--text-secondary);">
+      Status: Completing final core features and implementations, transitioning
+      into the design phase, and preparing for internal beta testing.
+    </p>
+  </div>
+
+
+      <div class="footer">
+        Contact Information:
+        <a href="mailto:crissienicholasr@gmail.com">
+          Click here to contact the founder
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
