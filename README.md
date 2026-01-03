@@ -1,2 +1,6 @@
 # texasdigitalholdings.github.io
-Official site for Texas Digital Holdings LLC
+
+Texas Digital Holdings LLC  
+Independent software development.
+
+This repository hosts the public website for the company.
